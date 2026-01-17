@@ -1,94 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Global Human Metrics Foundation</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: url("https://raw.githubusercontent.com/taeyangjin77-hash/global-human-metrics-foundation/main/Red%20de%20conexiones%20globales%20iluminada.png") no-repeat center center fixed;
-      background-size: cover;
-      color: #fff; /* TEXTO BLANCO */
-      margin: 0;
-      padding: 0;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fundación Global Human Metrics</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    overflow: hidden;
+  }
 
-    .container {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 40px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://raw.githubusercontent.com/taeyangjin77-hash/global-human-metrics-foundation/main/Red%20de%20conexiones%20globales%20iluminada.png");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
 
-    .left {
-      max-width: 550px;
-    }
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
 
-    h1 {
-      font-size: 44px;
-      margin: 0;
-    }
+  .logo {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 80px;
+    height: auto;
+    opacity: 0.9;
+  }
 
-    p {
-      font-size: 16px;
-      line-height: 1.6;
-      margin-top: 10px;
-    }
+  .text-box {
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    width: 50%;
+  }
 
-    .qr-box {
-      background: rgba(0,0,0,0.45);
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-      text-align: center;
-      max-width: 320px;
-    }
+  .title {
+    font-size: 46px;
+    font-weight: bold;
+    margin: 0;
+  }
 
-    .qr-box img {
-      width: 220px;
-      height: 220px;
-    }
+  .description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 10px;
+    max-width: 90%;
+  }
 
-    .small {
-      font-size: 12px;
-      color: #ccc;
-      margin-top: 12px;
-    }
+  .small-note {
+    font-size: 12px;
+    margin-top: 25px;
+    color: #dddddd;
+  }
 
-    .logo {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      width: 70px;
-      height: 70px;
-      opacity: 0.95;
-    }
-  </style>
+  .qr-box {
+    position: absolute;
+    right: 8%;
+    top: 30%;
+    background: rgba(0, 0, 0, 0.55);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+  }
+
+  .qr-box img {
+    width: 170px;
+    height: auto;
+  }
+
+  .qr-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .qr-address {
+    font-size: 14px;
+    margin-top: 8px;
+    word-break: break-all;
+  }
+</style>
 </head>
 <body>
-  <img class="logo" src="https://raw.githubusercontent.com/taeyangjin77-hash/global-human-metrics-foundation/raw/Logo%20de%20la%20Fundaci%C3%B3n%20Global%20H.M..png" alt="Logo" loading="lazy">
+  <div class="background"></div>
 
   <div class="container">
-    <div class="left">
-      <h1>Fundación Global Human Metrics</h1>
-      <p>
-        Somos una iniciativa global dedicada al estudio del desarrollo humano mediante investigación,
-        análisis de datos e impacto social. Nuestro objetivo es comprender mejor los desafíos que
-        enfrentan comunidades vulnerables y apoyar proyectos basados en evidencia.
+    <img class="logo" src="https://raw.githubusercontent.com/taeyangjin77-hash/global-human-metrics-foundation/raw/logo-hm.png" alt="Logo">
+
+    <div class="text-box">
+      <h1 class="title">Fundación Global Human Metrics</h1>
+      <p class="description">
+        Somos una iniciativa global dedicada al estudio del desarrollo humano mediante investigación, análisis de datos e impacto social.
+        Nuestro objetivo es comprender mejor los desafíos que enfrentan comunidades vulnerables y apoyar proyectos basados en evidencia.
       </p>
-      <div class="small">
+      <p class="small-note">
         Este sitio es un experimento independiente y no ofrece asesoramiento financiero.
-        Las donaciones son voluntarias y no están vinculadas a ningún servicio ni promesa.
-      </div>
+      </p>
     </div>
 
     <div class="qr-box">
-      <p><strong>Donar vía USDT (TRC20)</strong></p>
-      <img src="https://raw.githubusercontent.com/taeyangjin77-hash/global-human-metrics-foundation/main/QR%20BINANCE%20USDT.png" alt="QR">
-      <p><strong>Address:</strong> TGky87Vwr2qpZJ3dbeGcyAQKP3WTmWaVip</p>
+      <div class="qr-title">Donar vía USDT (TRC20)</div>
+      <img src="https://raw.githubusercontent.com/taeyangjin77-hash/global-human-metrics-foundation/main/QR%20Binance.png" alt="QR">
+      <div class="qr-address">TGky87Vwr2qpZJ3dbeGcyAQKP3WTmWaVip</div>
     </div>
   </div>
 </body>
